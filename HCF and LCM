@@ -1,0 +1,18 @@
+import java.util.Scanner;
+class Test{
+    public static void main(String[] args){
+        Scanner i =  new Scanner(System.in);
+        int n = i.nextInt();
+        int j, l,hcf=1,lcm, smaller;
+        for(j=1;j<=n;j++){
+            int a = i.nextInt();
+            int b = i.nextInt();
+            if(b>a){smaller=a;}else{smaller=b;} 
+            for(l=1;l<=(smaller+1);l++){
+                if((a%l==0)&&(b%l==0)){hcf=l;}
+            }
+            System.out.println(hcf+" "+(a*b));
+        }
+        
+    }
+}
