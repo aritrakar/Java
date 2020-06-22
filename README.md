@@ -1,2 +1,2 @@
-# Java-
-Contains some basic Java code.
+# XI
+Contains class XI programs.
