@@ -1,2 +1,2 @@
-# XI
-Contains class XI programs.
+# Java
+Contains very basic Java programs from years ago.
